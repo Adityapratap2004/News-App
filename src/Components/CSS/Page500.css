@@ -1,0 +1,45 @@
+
+
+.cont{
+    font: normal 100%/1.15 "Merriweather", serif;
+  background-color: #666a6b;
+  color: #fff;
+
+}
+.wrapper {
+    position: relative;
+    max-width: 1298px;
+    height: auto;
+    margin: 2em auto 0 auto;
+
+}
+
+.box {
+    max-width: 85%;
+    min-height: auto;
+    margin: 0 auto;
+    padding: 1em 1em;
+    text-align: center;
+    background: url("https://www.dropbox.com/s/xq0841cp3icnuqd/flame.png?raw=1") no-repeat top 10em center/128px 128px,
+                transparent url("https://www.dropbox.com/s/w7qqrcvhlx3pwnf/desktop-pc.png?raw=1") no-repeat top 13em center/128px 128px;
+  }
+
+  .box h1 {
+    margin: 0 0 1rem 0;
+  font-size: 7.5em;
+  }
+
+  .box p{
+    margin-bottom: 0.5em;
+  font-size: 3em;
+  }
+
+  .box p:first-of-type { margin-top: 4em; }
+
+  .msg {
+    border-bottom: 1px none #7e8384;
+    font-style: italic;
+    color: #d8f1f5;
+  }
+
+  .box p img { vertical-align: bottom; }

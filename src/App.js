@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import News from './Components/New';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
+import Page500 from './Components/Page500';
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
             <Route exact path="/science" element={<News Apikey={Apikey} setProgress={setProgress} key="science" category="science" pageSize={pageSize} country="in" />} />
             <Route exact path="/sports" element={<News Apikey={Apikey} setProgress={setProgress} key="sports" category="sports" pageSize={pageSize} country="in" />} />
             <Route exact path="/technology" element={<News Apikey={Apikey} setProgress={setProgress} key="technology" category="technology" pageSize={pageSize} country="in" />} />
+            <Route exact path="/page500" element={<Page500/>} />
           </Routes>
         </BrowserRouter>
       </div>
