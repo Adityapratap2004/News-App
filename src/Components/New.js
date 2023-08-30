@@ -77,7 +77,7 @@ const New = (props) => {
     return (
         <>
 
-            <h1 className="text-center " style={{ marginTop: '85px',color:"#fff",fontSize: "3.5em"}}>Top  {capitalizeString(props.category)} Headlines</h1>
+            <h1 className="text-center " style={{ marginTop: '85px',color:"red",fontSize: "3.5em"}}>Top  {capitalizeString(props.category)} Headlines</h1>
 
             <InfiniteScroll
                 dataLength={article.length}
